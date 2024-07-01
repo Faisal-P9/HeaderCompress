@@ -6,35 +6,35 @@
       let tHeader = gsap.timeline({ paused: true})
 
         tHeader
-        // .to('.header__masking--maskLayer', {duration: 0, stagger: 0.1, opacity: 1, ease: 'power2.in'})
-        .to('.header__masking--1', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--2', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--3', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--4', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--5', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--6', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--7', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--8', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--9', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--10', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--11', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--12', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--13', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--14', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--15', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--16', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--17', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--18', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--19', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--20', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--21', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--22', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--23', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--24', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--25', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--26', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--27', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--28', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--maskLayer', {duration: 0, stagger: 0.1, opacity: 1, ease: 'power2.in'})
+        // .to('.header__masking--1', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--2', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--3', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--4', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--5', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--6', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--7', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--8', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--9', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--10', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--11', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--12', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--13', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--14', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--15', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--16', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--17', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--18', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--19', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--20', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--21', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--22', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--23', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--24', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--25', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--26', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--27', { duration: 0.14, opacity: 1, ease: "none" })
+        // .to('.header__masking--28', { duration: 0.14, opacity: 1, ease: "none" })
 
         .add('head')
         .to('.header__masking', { duration: 0, opacity: 0, ease: "none" }, 'head')
@@ -103,20 +103,37 @@
               
           
               let value = window.scrollY;
+              // let maxValue;
           
-          
-              planet.style.marginLeft  = value * -0.2 + 'px';
-              big_island.style.marginBottom  = value * 0.1 + 'px';
-              small_island.style.marginBottom  = value * 0.01 + 'px';
-              small_island_left.style.marginBottom  = value * 0.05 + 'px';
-              middle_island.style.marginBottom  = value * 0.05 + 'px';
-              planet2.style.marginLeft  = value * 0.2 + 'px';
-              // color_cloud.style.marginLeft  = value * -0.25 + 'px';
-              // planet2.style.marginBottom  = value * -0.05 + 'px';
-              planet2.style.transform  = "rotateY(20deg)";
-              header_text.style.marginTop = value * 0.45 + 'px';
-              grass.style.marginTop = value * -0.09 + 'px';
-              sun.style.marginBottom = value * 0.3 + 'px';
+              // console.log(big_island)
+              // if(big_island.style.marginBottom <= 80) {
+              //   planet.style.marginLeft  = value * -0.2 + 'px';
+              //   big_island.style.marginBottom  = value * 0.1 + 'px';
+              //   small_island.style.marginBottom  = value * 0.01 + 'px';
+              //   small_island_left.style.marginBottom  = value * 0.05 + 'px';
+              //   middle_island.style.marginBottom  = value * 0.05 + 'px';
+              //   planet2.style.marginLeft  = value * 0.2 + 'px';
+              //   // color_cloud.style.marginLeft  = value * -0.25 + 'px';
+              //   // planet2.style.marginBottom  = value * -0.05 + 'px';
+              //   planet2.style.transform  = "rotateY(20deg)";
+              //   header_text.style.marginTop = value * 0.45 + 'px';
+              //   grass.style.marginTop = value * -0.09 + 'px';
+              //   sun.style.marginBottom = value * 0.3 + 'px';
+              // } else {
+                planet.style.marginLeft  = value * -0.2 + 'px';
+                big_island.style.marginBottom  = value * 0.1 + 'px';
+                small_island.style.marginBottom  = value * 0.01 + 'px';
+                small_island_left.style.marginBottom  = value * 0.05 + 'px';
+                middle_island.style.marginBottom  = value * 0.05 + 'px';
+                planet2.style.marginLeft  = value * 0.2 + 'px';
+                // color_cloud.style.marginLeft  = value * -0.25 + 'px';
+                // planet2.style.marginBottom  = value * -0.05 + 'px';
+                planet2.style.transform  = "rotateY(20deg)";
+                header_text.style.marginTop = value * 0.45 + 'px';
+                grass.style.marginTop = value * -0.09 + 'px';
+                sun.style.marginBottom = value * 0.3 + 'px';
+              // }
+
           
               let flower = gsap.timeline({});
 
