@@ -516,7 +516,8 @@ body {
       position: absolute;
       bottom: 0%;
       opacity: 0;
-      height: 100%; }
+      height: 100%;
+    }
     .header__masking img {
       width: 100%; }
   .header__planet {
@@ -563,6 +564,24 @@ body {
       bottom: 0%;
       width: 100%;
       transition: margin-bottom 0.5s linear; }
+
+      .header_masking_wave_animation{
+        animation-name: animateIn;
+        animation-duration: 250ms;
+        animation-delay: calc(var(--animation-order) * 50ms);
+        animation-fill-mode: both;
+        animation-timing-function: ease-in;
+      }
+
+      @keyframes animateIn {
+        0% {
+          opacity: 0;
+        }
+        
+        100% {
+          opacity: 1;
+        }
+      }
 
 #planet1 {
   transition: margin-left 0.5s linear; }
