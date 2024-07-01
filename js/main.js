@@ -6,7 +6,7 @@
       let tHeader = gsap.timeline({ paused: true})
 
         tHeader
-        .to('.header__masking--maskLayer', {duration: 0, stagger: 0.04, opacity: 1, ease: 'power2.in'})
+        .to('.header__masking--maskLayer', {duration: 0, stagger: 0.1, ease: 'power4.in'})
         // .to('.header__masking--1', { duration: 0.14, opacity: 1, ease: "none" })
         // .to('.header__masking--2', { duration: 0.14, opacity: 1, ease: "none" })
         // .to('.header__masking--3', { duration: 0.14, opacity: 1, ease: "none" })
