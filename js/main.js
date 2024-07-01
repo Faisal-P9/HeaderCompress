@@ -14,136 +14,7 @@
 
     // })
 
-        let tHeader = gsap.timeline({})
-
-        tHeader
-        // .to('.header__masking--maskLayer', {duration: 0, stagger: 0.1, opacity: 1, ease: 'power2.in'})
-        .to('.header__masking--1', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--2', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--3', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--4', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--5', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--6', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--7', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--8', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--9', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--10', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--11', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--12', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--13', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--14', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--15', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--16', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--17', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--18', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--19', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--20', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--21', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--22', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--23', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--24', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--25', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--26', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--27', { duration: 0.14, opacity: 1, ease: "none" })
-        .to('.header__masking--28', { duration: 0.14, opacity: 1, ease: "none" })
-
-        .add('head')
-        .to('.header__masking', { duration: 0, opacity: 0, ease: "none" }, 'head')
-        .to('.header__paralax', { duration: 0, opacity: 1, ease: "none", onComplete: cloudAnimation }, 'head')
-
-        .add('flow', '+=2')
-        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: '3deg', ease: "none" }, 'flow')
-        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: '3deg', ease: "none" }, 'flow')
-
-        .add('flow2')
-        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: '-3deg', ease: "none" }, 'flow2')
-        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: '-3deg', ease: "none" }, 'flow2')
-    
-        .add('flow3')
-        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: 0, ease: "none" }, 'flow3')
-        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: 0, ease: "none" }, 'flow3')
-    
-        .add('flow4')
-        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: '3deg', ease: "none" }, 'flow4')
-        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: '3deg', ease: "none" }, 'flow4')
-
-        .add('flow5')
-        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: '-3deg', ease: "none" }, 'flow5')
-        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: '-3deg', ease: "none" }, 'flow5')
-    
-        .add('flow6')
-        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: 0, ease: "none" }, 'flow6')
-        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: 0, ease: "none" }, 'flow6')
-
-        .add('flow7')
-        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: '3deg', ease: "none" }, 'flow7')
-        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: '3deg', ease: "none" }, 'flow7')
-
-        .add('flow8')
-        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: '-3deg', ease: "none" }, 'flow8')
-        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: '-3deg', ease: "none" }, 'flow8')
-    
-        .add('flow9')
-        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: 0, ease: "none" }, 'flow9')
-        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: 0, ease: "none" }, 'flow9')
-    
-
-        function cloudAnimation() {
-        let tHeader2 = gsap.timeline({})
-        tHeader2
-        .to('#cloud2', { duration: 20, x: 80, ease: "none" })
-        }
-
-
-
-        setTimeout(function() {
-            $(window).scroll(function () {
-              let planet = document.getElementById('planet1');
-              let big_island = document.getElementById('big_island');
-              let small_island_left = document.getElementById('small_island_left');
-              let small_island = document.getElementById('small_island');
-              let middle_island = document.getElementById('middle_island');
-              let planet2 = document.getElementById('planet2');
-              let grass = document.getElementById('grass');
-              let cloud1 = document.getElementById('cloud1');
-              let cloud2 = document.getElementById('cloud2');
-              let sun = document.getElementById('sun');
-              let header_text = document.getElementById('header__text');
-              let small_flower = document.querySelector('small_flower');
-              let big_flower = document.querySelector('big_flower');
-              
-          
-              let value = window.scrollY;
-          
-          
-              planet.style.marginLeft  = value * -0.2 + 'px';
-              big_island.style.marginBottom  = value * 0.1 + 'px';
-              small_island.style.marginBottom  = value * 0.01 + 'px';
-              small_island_left.style.marginBottom  = value * 0.05 + 'px';
-              middle_island.style.marginBottom  = value * 0.05 + 'px';
-              planet2.style.marginLeft  = value * 0.2 + 'px';
-              // color_cloud.style.marginLeft  = value * -0.25 + 'px';
-              // planet2.style.marginBottom  = value * -0.05 + 'px';
-              planet2.style.transform  = "rotateY(20deg)";
-              header_text.style.marginTop = value * 0.45 + 'px';
-              grass.style.marginTop = value * -0.09 + 'px';
-              sun.style.marginBottom = value * 0.3 + 'px';
-          
-              let flower = gsap.timeline({});
-
-              flower
-
-              // big_island.style.transition = "0.2s linear";
-              // small_island_left.style.transition = "0.2s linear";
-              // small_island.style.transition = "0.2s linear";
-              // middle_island.style.transition = "0.2s linear";
-              // planet.style.transition = "0.2s linear";
-              // planet2.style.transition = "0.2s linear";
-              // color_cloud.style.transition = "0.2s linear";
-              // sun.style.transition = "0.2s linear";
-              // grass.style.transition = "0.2s linear";
-            });
-        },500);
+        
 
 
         // Swiper
@@ -1909,6 +1780,139 @@
 
 
 // })(jQuery);
+
+
+
+let tHeader = gsap.timeline({})
+
+        tHeader
+        // .to('.header__masking--maskLayer', {duration: 0, stagger: 0.1, opacity: 1, ease: 'power2.in'})
+        .to('.header__masking--1', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--2', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--3', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--4', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--5', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--6', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--7', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--8', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--9', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--10', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--11', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--12', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--13', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--14', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--15', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--16', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--17', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--18', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--19', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--20', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--21', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--22', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--23', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--24', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--25', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--26', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--27', { duration: 0.14, opacity: 1, ease: "none" })
+        .to('.header__masking--28', { duration: 0.14, opacity: 1, ease: "none" })
+
+        .add('head')
+        .to('.header__masking', { duration: 0, opacity: 0, ease: "none" }, 'head')
+        .to('.header__paralax', { duration: 0, opacity: 1, ease: "none", onComplete: cloudAnimation }, 'head')
+
+        .add('flow', '+=2')
+        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: '3deg', ease: "none" }, 'flow')
+        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: '3deg', ease: "none" }, 'flow')
+
+        .add('flow2')
+        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: '-3deg', ease: "none" }, 'flow2')
+        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: '-3deg', ease: "none" }, 'flow2')
+    
+        .add('flow3')
+        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: 0, ease: "none" }, 'flow3')
+        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: 0, ease: "none" }, 'flow3')
+    
+        .add('flow4')
+        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: '3deg', ease: "none" }, 'flow4')
+        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: '3deg', ease: "none" }, 'flow4')
+
+        .add('flow5')
+        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: '-3deg', ease: "none" }, 'flow5')
+        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: '-3deg', ease: "none" }, 'flow5')
+    
+        .add('flow6')
+        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: 0, ease: "none" }, 'flow6')
+        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: 0, ease: "none" }, 'flow6')
+
+        .add('flow7')
+        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: '3deg', ease: "none" }, 'flow7')
+        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: '3deg', ease: "none" }, 'flow7')
+
+        .add('flow8')
+        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: '-3deg', ease: "none" }, 'flow8')
+        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: '-3deg', ease: "none" }, 'flow8')
+    
+        .add('flow9')
+        .to(small_flower, { duration: 2, opacity: 1, transformOrigin: "46% 100%", rotationZ: 0, ease: "none" }, 'flow9')
+        .to(big_flower, { duration: 2, opacity: 1, transformOrigin: "42% 100%", rotationZ: 0, ease: "none" }, 'flow9')
+    
+
+        function cloudAnimation() {
+        let tHeader2 = gsap.timeline({})
+        tHeader2
+        .to('#cloud2', { duration: 20, x: 80, ease: "none" })
+        }
+
+
+
+        setTimeout(function() {
+            $(window).scroll(function () {
+              let planet = document.getElementById('planet1');
+              let big_island = document.getElementById('big_island');
+              let small_island_left = document.getElementById('small_island_left');
+              let small_island = document.getElementById('small_island');
+              let middle_island = document.getElementById('middle_island');
+              let planet2 = document.getElementById('planet2');
+              let grass = document.getElementById('grass');
+              let cloud1 = document.getElementById('cloud1');
+              let cloud2 = document.getElementById('cloud2');
+              let sun = document.getElementById('sun');
+              let header_text = document.getElementById('header__text');
+              let small_flower = document.querySelector('small_flower');
+              let big_flower = document.querySelector('big_flower');
+              
+          
+              let value = window.scrollY;
+          
+          
+              planet.style.marginLeft  = value * -0.2 + 'px';
+              big_island.style.marginBottom  = value * 0.1 + 'px';
+              small_island.style.marginBottom  = value * 0.01 + 'px';
+              small_island_left.style.marginBottom  = value * 0.05 + 'px';
+              middle_island.style.marginBottom  = value * 0.05 + 'px';
+              planet2.style.marginLeft  = value * 0.2 + 'px';
+              // color_cloud.style.marginLeft  = value * -0.25 + 'px';
+              // planet2.style.marginBottom  = value * -0.05 + 'px';
+              planet2.style.transform  = "rotateY(20deg)";
+              header_text.style.marginTop = value * 0.45 + 'px';
+              grass.style.marginTop = value * -0.09 + 'px';
+              sun.style.marginBottom = value * 0.3 + 'px';
+          
+              let flower = gsap.timeline({});
+
+              flower
+
+              // big_island.style.transition = "0.2s linear";
+              // small_island_left.style.transition = "0.2s linear";
+              // small_island.style.transition = "0.2s linear";
+              // middle_island.style.transition = "0.2s linear";
+              // planet.style.transition = "0.2s linear";
+              // planet2.style.transition = "0.2s linear";
+              // color_cloud.style.transition = "0.2s linear";
+              // sun.style.transition = "0.2s linear";
+              // grass.style.transition = "0.2s linear";
+            });
+        },500);
 
 
 
